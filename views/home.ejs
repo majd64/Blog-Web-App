@@ -1,0 +1,12 @@
+<%- include("header") -%>
+
+<div class="posts">
+  <% for(var i = 0; i < posts.length; i++){ %>
+  <div class="container post">
+    <h1 class="post-title"><%= posts[i].title %></h1>
+    <h4 class="post-body"><%= posts[i].body %></h4>
+  </div>
+  <% } %>
+</div>
+
+<%- include("footer") -%>
