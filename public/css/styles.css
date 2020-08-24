@@ -34,18 +34,6 @@ html{
   color: white;
 }
 
-.posts{
-
-}
-
-.post{
-  
-}
-
-.post-title{
-
-}
-
-.post-body{
-
+.content{
+  margin: 20px auto;
 }

@@ -1,10 +1,10 @@
 <%- include("header") -%>
 
-<div class="posts">
+<div class="content">
   <% for(var i = 0; i < posts.length; i++){ %>
   <div class="container post">
     <h1 class="post-title"><%= posts[i].title %></h1>
-    <h4 class="post-body"><%= posts[i].body %></h4>
+    <p class="post-body"><%= posts[i].preview %> <a href=<%="/post/" + posts[i].title.replace(/\s/g , "-")%> >Read More</a> </p>
   </div>
   <% } %>
 </div>
