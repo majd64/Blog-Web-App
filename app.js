@@ -47,7 +47,6 @@ app.get("/post/:postName", function(req, res){
         post: posts[i]
       });
     }
-
   }
 });
 
